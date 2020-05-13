@@ -1,0 +1,18 @@
+.btn-primary {
+  background-color: #f9a826;
+  border: 0;
+  padding: 6px 30px;
+  margin-bottom: 1px;
+  &:hover {
+    background-color: #fa9f0c;
+  }
+  &:focus {
+    box-shadow: none;
+    background-color: #f9a826;
+    border: 0;
+  }
+}
+
+.jumbotron {
+  background-color: #fff;
+}
