@@ -1,5 +1,11 @@
 .hero {
+  background-color: #fdcd3b;
   & h1 {
     font-weight: 700;
+    font-size: 80px;
+  }
+  & p {
+    font-weight: 500;
+    font-size: 25px;
   }
 }

@@ -1,0 +1,12 @@
+.features {
+  padding-top: 5%;
+
+  & p {
+    color: black;
+  }
+}
+@media screen and (max-width: 768px) {
+  .features {
+    font-size: 14px;
+  }
+}
