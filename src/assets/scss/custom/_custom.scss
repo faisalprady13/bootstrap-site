@@ -1,8 +1,7 @@
 .btn-primary {
   background-color: #f9a826;
   border: 0;
-  padding: 12px 34px;
-  margin-bottom: 1px;
+
   &:hover {
     background-color: #dd8a05;
   }
@@ -14,6 +13,7 @@
 }
 .navbar {
   background-color: #fdcd3b;
+  margin-bottom: 0px;
 }
 
 .jumbotron {
