@@ -5,7 +5,7 @@ import { Zoom } from "react-reveal";
 const Features = () => {
   const SingleFeature = () => {
     return (
-      <Col sm={12} md={4} lg={3} className="mb-5">
+      <div>
         <Zoom>
           <Row>
             <Image src={Logo} width="100px" className="mx-auto my-3" />
@@ -18,18 +18,16 @@ const Features = () => {
             </Col>
           </Row>
         </Zoom>
-      </Col>
+      </div>
     );
   };
 
   return (
     <section className="features">
-      <Container className="py-2">
-        <Row className="justify-content-around">
-          <SingleFeature />
-          <SingleFeature />
-          <SingleFeature />
-        </Row>
+      <Container className="center-me flex-parent">
+        <SingleFeature />
+        <SingleFeature />
+        <SingleFeature />
       </Container>
     </section>
   );

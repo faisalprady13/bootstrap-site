@@ -1,5 +1,16 @@
 .features {
-  padding-top: 5%;
+  min-height: 50vh;
+  display: grid;
+  padding: 50px 0 50px 0;
+  & .center-me {
+    margin: auto;
+  }
+
+  & .flex-parent {
+    display: flex;
+
+    flex-direction: row;
+  }
 
   & p {
     color: black;
@@ -8,5 +19,10 @@
 @media screen and (max-width: 768px) {
   .features {
     font-size: 14px;
+
+    & .flex-parent {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
