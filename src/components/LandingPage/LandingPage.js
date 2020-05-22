@@ -6,7 +6,7 @@ import Blob1 from "../../assets/img/LandingPage/blob-1.svg";
 
 const LandingPage = () => {
   return (
-    <Jumbotron className="hero mb-0">
+    <Jumbotron className="hero mb-0 blob-wrapper">
       <img src={Blob1} className="blob-1" alt="blob 1" />
       <Container className="content">
         <Fade>

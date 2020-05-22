@@ -1,7 +1,13 @@
 @import "base/reset";
 @import "custom/custom";
+@import "custom/wavyBackground";
+@import "custom/blobBackground";
 //components
 @import "components/landingPage";
 @import "components/navigation";
 @import "components/features";
 @import "components/about";
+
+.customized {
+  background-color: #f9a826;
+}

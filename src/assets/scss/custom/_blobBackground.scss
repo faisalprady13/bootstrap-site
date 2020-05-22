@@ -1,0 +1,69 @@
+.blob-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  & .content {
+    z-index: 1;
+  }
+
+  & .blob-1 {
+    position: absolute;
+    top: 0;
+    left: 12vw;
+    width: 40vmax;
+    animation: rotating 20s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+
+  & .blob-2 {
+    position: absolute;
+    top: 80vh;
+    left: -20vw;
+    width: 65vmax;
+    animation: move 53s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+
+  & .blob-3 {
+    position: absolute;
+    top: 30vh;
+    left: 70vw;
+    width: 50vmax;
+    animation: move 58s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+  & .blob-4 {
+    position: absolute;
+    top: -10vh;
+    left: -20vw;
+    width: 60vmax;
+    animation: move 57s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+
+  @keyframes rotating {
+    0% {
+      transform: scale(1);
+    }
+    48% {
+      transform: scale(0.9, 1) rotate(180deg);
+    }
+    50% {
+      transform: scale(0.9, 1) rotate(180deg);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes move {
+    0%,
+    100% {
+      transform: scale(1.2);
+    }
+    48%,
+    50% {
+      transform: scale(1.1, 1) rotate(330deg) translate(2vh, 4vw);
+    }
+  }
+}

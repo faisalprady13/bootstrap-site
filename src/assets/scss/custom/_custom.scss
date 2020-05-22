@@ -1,9 +1,10 @@
 .btn-primary {
   background-color: #f9a826;
   border: 0;
+  padding: 12px 35px;
 
   &:hover {
-    background-color: #dd8a05;
+    background-color: #f79d0e;
   }
   &:focus {
     box-shadow: none;
